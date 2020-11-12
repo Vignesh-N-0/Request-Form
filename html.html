@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+  <title>Web</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 style="background-color:LightGray;"> Request Form </h1>
+  <div class="Contact-Form">
+  <form id="Contact-Form" method="post" action="php.php">
+  <input class="from-control" type="name" name="Name" placeholder="Enter your Name" required>
+  <br>
+  <input class="from-control" type="email" name="Email" placeholder="Enter your Email" required>
+  <br>
+  <textarea   name="Message" class="from-control" rows="10" cols="50" placeholder="Enter Your Message"></textarea>
+  <br>
+  <div class="ars">
+    App<input type="checkbox" size="5" name="Type[]" value="app">
+    Sofftware<input type="checkbox" name="Type[]" value="Sofftware">
+  </div>
+  <input type="submit" class="from-control-submit" value="SEND MESSAGE">
+</div>
+<br>
+<h4 style="background-color:LightGray;"> <b>Note:</b> <i><u>Don't Send Unwanted Message</u></i></h4>
+</body>
