@@ -22,5 +22,5 @@ if(mail($to,$email_subject,$email_body,$headers)){
 else {
   echo "Request Can't Send";
 }
-header("Location: html.html");
+header("Location: index.html");
 ?>
